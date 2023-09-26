@@ -78,12 +78,12 @@ import pathlib
 import pytest
 import day${day} as aoc
 
-# PUZZLE_DIR = pathlib.Path(__file__).parent
+#PUZZLE_DIR = pathlib.Path(__file__).parent
 #
-# @pytest.fixture
-# def example():
-#    puzzle_input = (PUZZLE_DIR / "example.txt").read_text().strip()
-#    return puzzle_input
+#@pytest.fixture
+#def example():
+#   puzzle_input = (PUZZLE_DIR / "example.txt").read_text().strip()
+#   return puzzle_input
 
 @pytest.mark.skip(reason="Not implemented")
 @pytest.mark.parametrize("puzzle_input,expected",
